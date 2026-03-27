@@ -1,0 +1,108 @@
+Microsoft Windows [Version 10.0.26200.7840]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Neha\Desktop\React Projects>node --version
+v22.17.1
+
+C:\Users\Neha\Desktop\React Projects>npm --version
+10.9.2
+
+C:\Users\Neha\Desktop\React Projects>npm create vite@latest my-first-app
+Need to install the following packages:
+create-vite@9.0.3
+Ok to proceed? (y) y
+
+
+> npx
+> create-vite my-first-app
+
+|
+o  Select a framework:
+|  React
+|
+o  Select a variant:
+|  JavaScript
+|
+o  Install with npm and start now?
+|  Yes
+|
+o  Scaffolding project in C:\Users\Neha\Desktop\React Projects\my-first-app...
+|
+o  Installing dependencies with npm...
+
+added 151 packages, and audited 152 packages in 15m
+
+36 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+|
+o  Starting dev server...
+
+> my-first-app@0.0.0 dev
+> vite
+
+
+  VITE v8.0.2  ready in 1855 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+  ➜  press h + enter to show help
+es
+
+
+
+
+y
+
+Terminate batch job (Y/N)? y
+
+C:\Users\Neha\Desktop\React Projects>cd my-first-project
+The system cannot find the path specified.
+
+C:\Users\Neha\Desktop\React Projects>cd my-first-app
+
+C:\Users\Neha\Desktop\React Projects\my-first-app>code .
+
+C:\Users\Neha\Desktop\React Projects\my-first-app>
+
+
+
+
+
+
+
+
+
+
+HOW TO RUN VS CODE COMMANDS********************** 
+
+PS C:\Users\Neha\Desktop\React Projects\my-first-app> npm run dev
+npm : File C:\Program Files\nodejs\npm.ps1 cannot be loaded because running scripts is disabled on this system. For 
+more information, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170.
+At line:1 char:1
++ npm run dev
++ ~~~
+    + CategoryInfo          : SecurityError: (:) [], PSSecurityException
+    + FullyQualifiedErrorId : UnauthorizedAccess
+PS C:\Users\Neha\Desktop\React Projects\my-first-app> Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+PS C:\Users\Neha\Desktop\React Projects\my-first-app> y
+y : The term 'y' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the 
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ y
++ ~
+    + CategoryInfo          : ObjectNotFound: (y:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\Neha\Desktop\React Projects\my-first-app> npm run dev
+
+> my-first-app@0.0.0 dev
+> vite
+
+
+  VITE v8.0.2  ready in 634 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+  ➜  press h + enter to show help
